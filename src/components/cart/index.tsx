@@ -4,7 +4,7 @@ import { useShoppingCart } from 'use-shopping-cart'
 
 import { CartClose, CartContent, CartFinalization, CartItems, FinalizationDetails } from "./styles"
 import { CartButton } from "../cartButton"
-import { X } from "@phosphor-icons/react"
+import { X } from "phosphor-react"
 import axios from "axios"
 import { useState } from "react"
 import { CartProduct } from "../cartProduct"
